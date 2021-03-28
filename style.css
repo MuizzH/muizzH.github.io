@@ -1,18 +1,33 @@
+html{
+  background-color: black;
+}
+
+body{
+  background-color: black;
+}
+
 .jumbotron-fluid {
   font-size: large;
     text-align: center;
     background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/apex-section-bg-red-grit-texture-xl.jpg.adapt.crop191x100.628p.jpg);
     color:black;
     border: solid black;
+    box-shadow: 0 0 30px 5px #ffffff;
   }
   
+  .navbar a ul li{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .apexi {
     text-align: center;
     font-size: 20px;
   }
 
   .skills {
-    font-size: 24px;
+    font-size: 18px;
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -40,18 +55,24 @@
     background-color: #484d48;
   }
   
-  .containerC {
+  .container {
     border-radius: 5px;
+    width: 100%;
     background-color: #f2f2f2;
-    padding: 20px;
+    
+    padding: 30px;
+    box-shadow: 0 0 10px 3px #b92121;
   }
   
   .footer p{
-    font-size: 18px;
+    font-size: 20px;
+    color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.212);
     padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
   }
   
   /*BUTTON*/
@@ -115,3 +136,5 @@
       max-width: 100%;
     }
   }
+
+  
