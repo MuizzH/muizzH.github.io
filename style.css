@@ -59,9 +59,8 @@ body{
     border-radius: 5px;
     width: 100%;
     background-color: #f2f2f2;
-    
     padding: 30px;
-    box-shadow: 0 0 10px 3px #b92121;
+
   }
   
   .footer p{
@@ -137,4 +136,21 @@ body{
     }
   }
 
-  
+  .map-respon{
+
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+
+.map-respon iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
